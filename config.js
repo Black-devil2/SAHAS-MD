@@ -3,13 +3,13 @@ require("dotenv").config();
 
 module.exports = {
   //==========================================- MAIN - CONFIGS -==================================================================
-  SESSION_ID: process.env.SESSION_ID || "lXN2RJzC#N5TtmbYeXOl_cUVG5SW4BYrgQlZMQy8_dgRXMn6FIk8",
+  SESSION_ID: process.env.SESSION_ID || "",
   // ADD Your Session Id 
   MONGODB: process.env.MONGODB || "mongodb+srv://kulathungaasitha319:yjHB0DvFfStNfwPS@cluster0.3oijd.mongodb.net/",
     // ADD Your MongoDB Database URL
   PREFIX: process.env.PREFIX || ".",
   // Add Your Custom Prefix 
-  mode: process.env.mode || "public",
+  mode: process.env.mode || "inbox",
   // Add Your Bot Mode 
   // private = Only Working For Owner Number
   // public = AnyOne Working
@@ -20,16 +20,16 @@ module.exports = {
   AUTO_VOICE: process.env.AUTO_VOICE || "true",
   ANTI_BAD_WORDS_ENABLED: process.env.ANTI_BAD_WORDS_ENABLED || "true",
   AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
-  AUTO_READ_CMD: process.env.AUTO_READ_CMD || "true",
+  AUTO_READ_CMD: process.env.AUTO_READ_CMD || "false",
   ANTI_BAD_WORDS: (process.env.ANTI_BAD_WORDS || "pakayo,huththo").split(','),
   ANTI_LINK: process.env.ANTILINK || "true",
-  ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
+  ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
   ALWAYS_TYPING: process.env.ALWAYS_TYPING || "true",
   ALWAYS_RECORDING: process.env.ALWAYS_RECORDING || "true",
   ANTI_BOT: process.env.ANTI_BOT || "true",
   ANTI_DELETE: process.env.ANTI_DELETE || "true",
-  packname: process.env.packname || "SAHAS TECH",
-  author: process.env.author || "SAHAS TECH",
+  packname: process.env.packname || "shanuwa🧚",
+  author: process.env.author || "shanuwa",
   //==========================================- API-CONFIGS -==========================================================
   OPENWEATHER_API_KEY: process.env.OPENWEATHER_API_KEY || "2d61a72574c11c4f36173b627f8cb177", //openweathermap.org
   ELEVENLABS_API_KEY: process.env.ELEVENLABS_API_KEY || "sk_6438bcc100d96458f8de0602aec662f4ba14b905fd090ad3", //elevenlabs.io
